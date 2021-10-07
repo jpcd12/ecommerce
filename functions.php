@@ -1,6 +1,6 @@
 <?php
 
-function formatPrice(float $vlPrice){
+function formatPrice($vlPrice){
 
 	return number_format($vlPrice, 2, ",", ".");
 
